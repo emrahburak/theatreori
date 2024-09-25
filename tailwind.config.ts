@@ -8,7 +8,8 @@ const config: Config = {
 	],
 	theme: {
 		fontFamily: {
-			barlow: ["Barlow", "sans-seif", "400", "normal"]
+			barlow: ["Barlow", "sans-seif"],
+			anton: ["Anton", "sans-serif"]
 		},
 		extend: {
 			colors: {

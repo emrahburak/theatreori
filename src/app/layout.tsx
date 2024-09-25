@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
-import bg from "@/assets/images/bg-01.jpg"
+import bg from "../../public/assets/images/bg-01.jpg"
+import Footer from "@/components/Footer";
 
 
 export const metadata: Metadata = {
@@ -34,8 +35,8 @@ export default function RootLayout({
 					{children}
 				</main>
 
-				<footer className="relative z-10">
-					Footer
+				<footer className="relative z-10 bg-black_01">
+					<Footer />
 				</footer>
 			</body>
 		</html>

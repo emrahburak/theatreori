@@ -1,0 +1,36 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding: .3rem;
+    gap:2rem;
+    opacity: .8;
+
+}
+
+    .slider-text {
+	padding-top: 7rem;
+    }
+
+
+
+@media (max-width: 640px) {
+  .swiper-slide {
+    flex-direction: column;
+      align-items: center;
+      padding-top: 1rem;
+
+  }
+    .slider-text {
+	padding-left: 2rem;
+	padding-top: 0;
+	padding-bottom: 1rem;
+}
+}
+
