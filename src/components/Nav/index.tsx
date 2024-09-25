@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import logo from "../../../public/assets/images/orilogo.jpg"
 import { Space } from "antd"
-import { InstagramOutlined, InstagramFilled } from "@ant-design/icons"
+import { InstagramFilled } from "@ant-design/icons"
 
 
 const navData = {

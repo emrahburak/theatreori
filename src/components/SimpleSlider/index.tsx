@@ -1,7 +1,6 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import BannerContent from "../BannerContent";
 import Image from "next/image";
 import { playsData } from "@/lib/data/games";
 import "swiper/css";
@@ -14,7 +13,7 @@ const contentStyle: React.CSSProperties = {
 }
 
 
-export default () => {
+export default function SimpleSlider() {
 	return (
 		<>
 			<Swiper className="w-full">
